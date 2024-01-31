@@ -20,6 +20,6 @@ namespace StammdatenFormulare.Modell.Kontaktdaten
     /// <summary>
     /// Die Mailadresse einer Person, eines Unternehmens etc.
     /// </summary>
-    /// <param name="mailadresse">Mailadresse als <see cref="string"/>.</param>
-    public readonly record struct MailadresseSchlicht(string mailadresse);
+    /// <param name="Mailadresse">Mailadresse als <see cref="string"/>.</param>
+    public readonly record struct MailadresseSchlicht(string Mailadresse);
 }
