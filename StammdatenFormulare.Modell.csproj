@@ -1,9 +1,31 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
+
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
+    <Deterministic>True</Deterministic>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+
+	  <PackageId>mx-pl.StammdatenFormulare.Modell</PackageId>
+	  <Version>0.1.0</Version>
+	  <Authors>mx-pl</Authors>
+	  <Copyright>Copyright (c) mx-pl 2024</Copyright>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <Title>StammdatenFormulare - Modell</Title>
+	  <Product>StammdatenFormulare</Product>
+	  <Description></Description>
+	  <PackageTags></PackageTags>
+
+	  <PackageProjectUrl>https://github.com/mx-pl/StammdatenFormulare.Modell</PackageProjectUrl>
+	  <RepositoryUrl>https://github.com/mx-pl/StammdatenFormulare.Modell.git</RepositoryUrl>
+	  <RepositoryType>git</RepositoryType>
+	  <PackageReadmeFile></PackageReadmeFile>
+
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <ItemGroup>
